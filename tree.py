@@ -7,5 +7,5 @@ def draw_christmas_tree(height):
     base = ' ' * (height - 1) + '|'
     print(base)
 
-tree_height = int(input("Digite a altura da árvore: "))
+tree_height = int(input("Type the height of the tree: "))
 draw_christmas_tree(tree_height)
